@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-family: 'Patrick Hand', cursive;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 20px;
+}
+.main_header {
+    display: flex; 
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar .socialmedialinks a {
+    margin: 5px;
+}
+
+.navbar .socialmedialinks img {
+    height: 32px;
+    width: 32px;
+}
+
+.navbar input[type="text"]{
+    padding-left: 5px;
+    border-radius: 60px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-right: 20px;
+    height: 30px;  
+    font-weight: 700;
+}
+.navbar button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.navbar button img{
+    height: 25px;
+    width: 35px;
+}
+.navbar form{
+    display: flex;
+    align-items: center;
+}
+.main_header .logo{
+    font-family: 'Patrick Hand', cursive;
+}
+.menu ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+.menu a h3{
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: black;
+    transition: background-color .8s ;
+    transition: color .8s ;
+
+}
+.menu a h3:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 100ms;
+    
+}
+/* .menu a:hover{
+    color: white;
+} */
+.header hr{
+
+        border: 0;
+        border-top: 3px double #8c8c8c;
+      
+}
+main{
+    margin-top: 100px;
+    
+    
+}
+.picture img{
+    border-radius: 50%;
+    height: 400px;
+}
+.main{
+    display: flex;
+    justify-content:center ;
+    gap: 30px;
+
+}
+.main .text{
+    background-color: #f2f3f4 ;
+    padding: 40px 30px;
+    border-radius: 5px;
+}
+.main .text h2{
+    color: rgba(0, 0, 0, .5);
+}
